@@ -34,12 +34,14 @@ export default function Page() {
           width={1000}
           height={760}
           className="hidden md:block"
+          alt="acme-logo"
           />
           <Image
             src="/hero-mobile.png"
             width={560}
             height={620}
             className="block md:hidden"
+            alt="hero-mobile"
           />
         </div>
       </div>
